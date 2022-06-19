@@ -14,10 +14,11 @@ body{
       display: flex;
       width: 900px;
       height: 450px;
-      margin-top: 300px;
-      margin-left: 500px;
+      margin-top: 100px;
+      margin-left: 250px;
       border-radius: 10px;
       overflow: hidden;
+      
   }
   .a{
       background-color: hsl(31, 77%, 52%);
@@ -34,6 +35,7 @@ body{
       padding-top: 30px;
       padding-left: 30px;
       padding-right: 30px;
+      
   }
   .parentdiv h2{
     font-family: 'Big Shoulders Display', cursive;
@@ -61,14 +63,7 @@ body{
 .button-c{
     color:hsl(179, 100%, 13%);
 }
-@media screen and (max-width: 800px){
-    .parentdiv{width: 800px;}
 
-}
-
-@media screen and (min-width: 400px){
-    .parentdiv{height: 30px;}
-}
 
     
     
